@@ -4,6 +4,17 @@ body {
     
 }
 
+footer {
+    color: #810d68;
+    background-color:#72cbdb;
+    length: 30vh;
+   
+}
+#footerText {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 #aboutMe {
     background-color: #e96969;
@@ -20,7 +31,7 @@ body {
     font-size:medium ;
     background-color: rgba(0,0,0,0.7);
     color: #1f1075;
-    background-image: url("/Images/Hillary.jpeg");
+    background-image: url("Images/Hillary.jpeg");
     background-size: cover;
 
 }
