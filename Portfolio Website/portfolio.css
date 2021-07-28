@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+
+
+#aboutMe {
+    background-color: #e96969;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe h1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size:medium ;
+    background-color: rgba(0,0,0,0.7);
+    color: #1f1075;
+    background-image: url("/Images/Hillary.jpeg");
+    background-size: cover;
+
+}
+
+
+#aboutMeDetails p {
+    font-weight: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: small;
+ 
+}
+
+
+#navBar {
+    background-color: #1093aa;
+    height: 15vh;
+    align-content: flex-start;
+    
+}
+
+#navigation {
+  display: flex;
+    color: #ffff;
+    justify-content: space-evenly;
+}
+
+  
+
+#navBar h1 {
+    color: white;
+}
+#myProjects {
+    background-color: #f7ee78;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "Frolic LifeWork"
+    "USDept awf";
+   }
+
+#underNavArea {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+
+.projectCard {
+    margin: 20px;
+    background-size: cover;
+
+   
+}
+
+.heading {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-size: medium;
+}
+
+.projectBlurb {
+    font-size: 10px;
+font-style: normal;}
+#frolic {
+    background-image: url("https://images.unsplash.com/photo-1611153662496-c232240334a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZ1bnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+    grid-area: Frolic;
+}
+
+#lifeWork {
+    background-image: url("https://images.unsplash.com/photo-1619468129361-605ebea04b44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1hcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+    grid-area: LifeWork;
+}
+
+
+#USDEPT {
+    background-image: url("https://images.unsplash.com/photo-1464462605615-4ff728ecc301?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHJlYXN1cnklMjB1c2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+    grid-area: USDept;
+}
+
+#awf {
+    background-image: url("https://images.unsplash.com/photo-1607748862156-7c548e7e98f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+    grid-area: awf;
+}
+
+
