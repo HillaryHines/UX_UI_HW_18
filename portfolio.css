@@ -117,58 +117,7 @@ font-style: normal;}
     grid-area: awf;
 }
 
-.skills {
- background-color: lightblue;
- display: grid;
- grid-template-rows: 25% 25% 25% 25%;
-  grid-template-columns: 30% 70%;
-}
-.skillList {
-  background-color: lightyellow;
-  max-width: 700px;
-  max-height: 300px;
-  margin: 5px;
- 
-}
-.skillCat {
-  max-width: 300px;
-  max-height: 300px;
-  margin: 5px;
-}
-#ux {
- 
-background-image: url(https://images.unsplash.com/photo-1503551723145-6c040742065b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHV4JTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
-}
 
-#uxSkill { 
- 
-}
-
-
-.skillCat p {color: white;
-background-color: rgba(0,0,0,0.7);}
-
-#ui {
-
-  background-image: url(https://images.unsplash.com/photo-1615406839587-0276084b72bb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dXNlciUyMGludGVyZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);}
-
-#uiSkill {
- 
-}
-#myTools {
-
-  background-image: url(https://images.unsplash.com/photo-1467139840664-96b244a66825?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvb2xzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
-}
-#toolSkill {
-
-}
-#assets {
-  
-  background-image: url(https://images.unsplash.com/photo-1518335935020-cfd6580c1ab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80)
-}
-#assetSkill {
-  
-}
 
 
 
